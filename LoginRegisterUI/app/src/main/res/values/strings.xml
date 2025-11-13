@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LoginRegisterUI</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Chào mừng trở lại!</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="sign_up">Đăng ký ngay</string>
+    <string name="or_continue_with">Hoặc tiếp tục với</string>
+    
+    <!-- Register Screen -->
+    <string name="register_title">Tạo tài khoản mới</string>
+    <string name="register_subtitle">Đăng ký để bắt đầu</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="register_button">Đăng ký</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="terms_agreement">Bằng việc đăng ký, bạn đồng ý với</string>
+    <string name="terms_and_conditions">Điều khoản &amp; Chính sách</string>
+    
+    <!-- Common -->
+    <string name="enter_email">Nhập email của bạn</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="enter_full_name">Nhập họ và tên</string>
+    <string name="enter_confirm_password">Nhập lại mật khẩu</string>
+</resources>
