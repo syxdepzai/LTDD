@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/bg_light">
+
+    <!-- TextView tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo LinearLayout"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="32dp" />
+
+    <!-- ImageView -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sample_image"
+        android:contentDescription="Demo Image"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button 1 -->
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Xanh Lá"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Xanh Dương"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Tím" />
+
+</LinearLayout>

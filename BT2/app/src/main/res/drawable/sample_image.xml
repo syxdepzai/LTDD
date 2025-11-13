@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Hình tròn màu xanh lá -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0"/>
+    
+    <!-- Ngôi sao màu vàng -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M100,40 L110,80 L150,80 L120,100 L130,140 L100,120 L70,140 L80,100 L50,80 L90,80 Z"/>
+</vector>
