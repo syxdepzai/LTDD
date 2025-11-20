@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayoutList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ListViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTVIEW - DANH SÁCH MÔN HỌC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:padding="16dp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/listViewMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
+

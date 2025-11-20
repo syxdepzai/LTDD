@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayoutGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".GridViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRIDVIEW - LƯỚI MÔN HỌC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#FF5722"
+        android:padding="16dp"
+        android:gravity="center" />
+
+    <GridView
+        android:id="@+id/gridViewMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:padding="8dp" />
+
+</LinearLayout>
+
