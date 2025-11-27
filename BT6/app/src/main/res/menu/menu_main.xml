@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuNewGroup"
+        android:title="New Group"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuBroadcast"
+        android:title="Broadcast"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuWeb"
+        android:title="Web"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuMessage"
+        android:title="Message"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuSetting"
+        android:title="Setting"
+        app:showAsAction="never" />
+
+</menu>
