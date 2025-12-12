@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Chat Support</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_title">Chào mừng đến Chat Support</string>
+    <string name="customer_mode">Chế độ Khách hàng</string>
+    <string name="manager_mode">Chế độ Manager</string>
+    <string name="enter_name">Nhập tên của bạn</string>
+    <string name="enter_customer_id">Nhập ID khách hàng</string>
+    <string name="enter_manager_id">Nhập ID manager</string>
+    <string name="start_chat">Bắt đầu Chat</string>
+    
+    <!-- Customer Chat -->
+    <string name="customer_chat_title">Hỗ trợ khách hàng</string>
+    <string name="waiting_for_manager">Đang chờ manager hỗ trợ...</string>
+    <string name="connected_to_manager">Đã kết nối với manager</string>
+    <string name="type_message">Nhập tin nhắn...</string>
+    <string name="send">Gửi</string>
+    <string name="manager_disconnected">Manager đã ngắt kết nối</string>
+    
+    <!-- Manager Dashboard -->
+    <string name="manager_dashboard_title">Manager Dashboard</string>
+    <string name="waiting_customers">Khách hàng đang chờ</string>
+    <string name="active_chats">Cuộc trò chuyện đang hoạt động</string>
+    <string name="no_waiting_customers">Không có khách hàng đang chờ</string>
+    <string name="no_active_chats">Không có cuộc trò chuyện nào</string>
+    <string name="accept">Chấp nhận</string>
+    
+    <!-- Manager Chat -->
+    <string name="manager_chat_title">Chat với khách hàng</string>
+    <string name="customer_disconnected">Khách hàng đã ngắt kết nối</string>
+    <string name="end_chat">Kết thúc chat</string>
+    <string name="confirm_end_chat">Bạn có chắc muốn kết thúc cuộc trò chuyện này?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    
+    <!-- Common -->
+    <string name="connection_error">Lỗi kết nối</string>
+    <string name="reconnecting">Đang kết nối lại...</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="disconnected">Đã ngắt kết nối</string>
+    <string name="typing">đang nhập...</string>
+</resources>
