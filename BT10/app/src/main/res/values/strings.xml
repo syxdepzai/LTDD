@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="no_tasks">Chưa có công việc nào</string>
+    <string name="add_task">Thêm công việc</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="date">Ngày</string>
+</resources>
